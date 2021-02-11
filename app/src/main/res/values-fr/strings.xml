@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">aeond-app</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="title_activity_settings">Paramètres</string>
+    <string name="action_about">A propos</string>
+    <string name="summary_options">Options</string>
+    <string name="title_options">Settings</string>
+    <string name="pref_about">A propos</string>
+    <string name="summary_about">Cette application permet de faire tourner un nœud de crypto monnaie AEON sur votre téléphone. Pour faire des transactions en toute sécurité, connectez votre portefeuille sur ce nœud local.</string>
+    <string name="app_version">0.1 - Beta</string>
+    <string name="daemon_version">N/A</string>
+    <string name="title_daemon_version">Version logicielle du nœud AEON</string>
+    <string name="summary_support">Des idées pour nous aider? Des problèmes d\'utilisation. Rendez vous sur https://github.com/enerc/Aeon-daemon</string>
+    <string name="title_support">Votre avis</string>
+    <string name="action_log">Traces</string>
+    <string name="log_content">Contenus des traces</string>
+    <string name="donation">Dons</string>
+    <string name="peers_connected">nœuds connectés</string>
+    <string name="msg_peers_connected">nœuds connectés</string>
+    <string name="download_at">Télécharge à</string>
+    <string name="use_sd_card">Utilise la carte SD</string>
+    <string name="title_storage">Chemin</string>
+    <string name="summary_storage">Chemin sur la carte SD</string>
+    <string name="use_custom_storage">Utilise un chemin spécifique</string>
+    <string name="title_custom_storage">Emplacement des données de la bloc chaine</string>
+    <string name="summary_custom_location">Ces données ne seront pas supprimée quand l\'application est désinstallée</string>
+    <string name="fastblock_sync">Synchronisation rapide des blocs</string>
+    <string name="summary_fastblock_sync">Utilise des blocs connus pour la synchonisation</string>
+    <string name="disk_used">GB libre</string>
+    <string name="daemon_not_running">Le process de synchonisation ne tourne pas</string>
+    <string name="sync_starting">Début de synchronisation</string>
+    <string name="sd_custom_error">Configuration invalide</string>
+    <string name="sd_custom_error_msg">Sélection simultanée de la carte SD et d\'un emplacement spécifique incompatible</string>
+    <string name="summary_blockSyncSize">0 = s\'adapte automatiquement</string>
+    <string name="title_blockSyncSize">Nombre de blocs pour la synchronisation</string>
+    <string name="summary_loglevel">Niveau de trace</string>
+    <string name="title_loglevel">Niveau</string>
+    <string name="dialog_loglevel">Chosir le niveau de trace</string>
+    <string name="storage">Stockage</string>
+    <string name="Peers">Nœuds amis</string>
+
+    <string-array name="loglevel_titles">
+        <item>Erreur</item>
+        <item>Info</item>
+        <item>Debug</item>
+        <item>Trace</item>
+    </string-array>
+
+    <string-array name="log_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="theme_titles">
+        <item>Couleur unie</item>
+        <item>L\'espace</item>
+        <item>Monnaies</item>
+        <item>Mythologie</item>
+    </string-array>
+
+    <string-array name="theme_values">
+        <item>PreferencesThemeAeonSolid</item>
+        <item>PreferencesThemeAeonBg</item>
+        <item>PreferencesThemeAeonCoins</item>
+        <item>PreferencesThemeAeonMyth</item>
+    </string-array>
+    <string name="apropos">Qui suis-je?</string>
+    <string name="height">Bloc</string>
+    <string name="target">Dernier bloc</string>
+
+</resources>
